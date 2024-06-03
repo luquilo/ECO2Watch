@@ -8,3 +8,8 @@ git branch -a = melihat branch
 
 git checkout {nama branch} = untuk pindah branch
 
+
+// jika mau push codingan
+- git add . = menambahkan codingan untuk siap di commit
+- git commit -m {selesai mengerjakan beranda}
+- git push origin {nama branch kita} = push code ke github
