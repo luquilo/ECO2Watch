@@ -1,0 +1,10 @@
+catatan perintah git
+
+git fetch = memperbarui repo local
+
+git branch = mengecek kita ada di branch yang mana
+
+git branch -a = melihat branch
+
+git checkout {nama branch} = untuk pindah branch
+
