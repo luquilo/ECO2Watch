@@ -1,0 +1,181 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+ 
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: white;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+ 
+ 
+/*
+  AppBar
+*/
+ 
+.app-bar {
+  padding: 8px 16px;
+  background-color: #EFFAF2;
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  gap: 10px;
+  position: sticky;
+  top: 0;
+  z-index: 99;
+  /* box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2); */
+}
+ 
+.app-bar .app-bar__menu {
+  display: flex;
+  align-items: center;
+}
+ 
+.app-bar .app-bar__menu button {
+  background-color: transparent;
+  border: none;
+  font-size: 18px;
+  padding: 8px;
+  cursor: pointer;
+}
+ 
+.app-bar .app-bar__brand {
+  display: flex;
+  align-items: center;
+}
+
+.app-bar .app-bar__brand img {
+  width: 150px;
+}
+ 
+.app-bar .app-bar__navigation {
+  position: absolute;
+  top: 50px;
+  left: -180px;
+  width: 150px;
+  transition: all 0.3s;
+  padding: 8px;
+  background-color: #EFFAF2;
+  overflow: hidden;
+}
+ 
+.app-bar .app-bar__navigation.open {
+  left: 0;
+}
+ 
+.app-bar .app-bar__navigation ul li a {
+  display: inline-block;
+  text-decoration: none;
+  color: #2C9D57;
+  padding: 8px;
+  margin-bottom: 5px;
+  width: 100%;
+}
+
+.app-bar .app-bar__navigation ul li a:hover {
+  color: #15502f;
+}
+ 
+/*
+  Main Content
+*/
+ 
+main {
+  flex: 1;
+  background-color: #EFFAF2;
+}
+
+/*
+  Footer
+*/
+
+footer {
+  padding: 20px;
+  background-color: #0D343F;
+  color: white;
+}
+
+.info__footer {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, auto));
+  gap: 100px;
+  padding: 50px 75px;
+}
+
+.footer-content img {
+  width: 200px;
+}
+
+.footer-content p {
+  margin-top: 15px;
+}
+
+.footer-content ul li {
+  list-style: none;
+  text-decoration: none;
+  margin-top: 15px;
+}
+
+.footer-content ul li a {
+  cursor: pointer;
+  text-decoration: none;
+  color: white;
+}
+
+.footer-content ul li a:hover {
+  color: #2C9D57;
+}
+
+.green-line-footer {
+  border: none;
+  border-top: 1.5px solid white;
+  margin: 0 65px 20px;
+}
+
+.copyright__footer {
+  text-align: center;
+  font-size: 14px;
+}
+
+/* 
+  Responsive
+*/
+
+@media screen and (min-width: 650px) {
+  .app-bar {
+    grid-template-columns: 1fr auto;
+    padding: 8px 32px;
+  }
+ 
+  .app-bar .app-bar__brand h1 {
+    font-size: 1.5em;
+  }
+ 
+  .app-bar .app-bar__menu {
+    display: none;
+  }
+ 
+  .app-bar .app-bar__navigation {
+    position: static;
+    width: 100%;
+  }
+ 
+  .app-bar .app-bar__navigation ul li {
+    display: inline-block;
+  }
+ 
+  .app-bar .app-bar__navigation ul li a {
+    display: inline-block;
+    width: 120px;
+    text-align: center;
+    margin: 0;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .app-bar .app-bar__brand h1 {
+    font-size: 2em;
+  }
+}
