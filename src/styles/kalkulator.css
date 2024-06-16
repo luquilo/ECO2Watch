@@ -1,27 +1,72 @@
-.header-headline {
+/* .header-headline { */
+.kalkulator-headline {
     text-align: center;
-    margin: 50px 260px 0;
+    padding: 0 50px;
+    max-width: 700px;
+    margin: 0 auto;
 }
 
 .green-text {
     color: #2C9D57;
 }
 
-.header-headline p {
+/* .header-headline p { */
+.kalkulator-headline p {
     margin-top: 25px;
     font-size: 18px;
 }
 
-.header-img {
+/* .header-img { */
+.kalkulator-header-img {
     display: flex;
     justify-content: space-between;
 }
 
-.header-img img {
+/* .header-img img { */
+.kalkulator-header-img img {
     width: 180px;
 }
 
 .green-line {
     border: none;
     border-top: 3px solid #2C9D57;
+}
+
+.calculator-container{
+    background: yellow;
+    height: 200px;
+}
+
+
+
+/* responsive rules */
+@media only screen and (max-width: 640px) {
+    .kalkulator-headline {
+        padding: 0 30px;
+    }
+}
+
+/* Styles for screen widths between 640px and 766px */
+@media only screen and (min-width: 640px) and (max-width: 766px) {
+
+}
+
+/* Styles for screen widths between 767px and 1023px */
+@media only screen and (min-width: 767px) and (max-width: 1023px) {
+
+}
+
+/* Styles for screen widths between 1024px and 1279px */
+@media only screen and (min-width: 1024px) and (max-width: 1279px) {
+
+}
+
+/* Styles for screen widths between 1280px and 1535px */
+@media only screen and (min-width: 1280px) and (max-width: 1535px) {
+
+}
+
+/* Styles for screen widths 1536px and above */
+@media only screen and (min-width: 1536px) {
+
 }

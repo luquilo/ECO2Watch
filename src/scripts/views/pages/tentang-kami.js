@@ -7,7 +7,7 @@ const TentangKami = {
             <header class="about-us__header">
                 <div class="header-headline">
                     <h1>Tentang <span class="green-text">Kami</span></h1>
-                    <p>At Carbon Emissions Calculator, we're dedicated to providing you with the tools and knowledge you need to measure and reduce your carbon footprint. Our mission is to empower individuals and organizations to make environmentally conscious decisions. With our user-friendly calculator, in-depth insights, and practical tips, you can take meaningful steps towards a greener planet.</p>
+                    <p>Dengan ECO2Watch, kami berdedikasi untuk menyediakan perangkat dan pengetahuan yang Anda butuhkan untuk mengukur dan mengurangi jejak karbon Anda. Misi kami adalah memberdayakan individu dan organisasi untuk membuat ambisi yang ramah lingkungan. Dengan kalkulator kami yang mudah digunakan, wawasan mendalam, dan tips praktis, Anda dapat mengambil langkah nyata menuju planet yang lebih hijau.</p>
                 </div>
                 <div class="header-img">
                     <img src="../images/leaf-left.png" alt="Leaf Left">
@@ -18,7 +18,8 @@ const TentangKami = {
             <div class="about-us__profile">
                 <div class="profile-desc">
                     <h1>Meet <div class="green-text">Our Team</div></h1>
-                    <p>Our team of talented developers is the backbone of Carbon Emissions Calculator. With a shared commitment to sustainability and innovation, they work tirelessly to create and improve the tools that help you measure and reduce your carbon footprint. Get to know the brilliant minds making it all possible:</p>
+                    <p>Tim kami berminat</p>
+                    <p>Tim pengembang kami adalah penanggung jawab atas berjalannya ECO2Watch. Dengan komitmen bersama untuk keberlanjutan dan inovasi, kami bekerja untuk menciptakan dan memperbaiki alat yang membantu mengukur dan mengurangi jejak karbon anda. Kenali orang-orang hebat yang membuat semua ini menjadi mungkin:</p>
                 </div>
                 <div class="profile-img">
                     <div class="member">
@@ -41,6 +42,7 @@ const TentangKami = {
         </div>          
     `;
   },
+  async afterRender(){}
 };
 
 export default TentangKami;

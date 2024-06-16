@@ -5,11 +5,11 @@ const Artikel = {
     return `
         <div class="article">
             <header class="article__header">
-                <div class="header-headline">
-                    <h1>Cool Article<div>About <span class="green-text">Carbon Emission</span></div></h1>
-                    <p>Explore our selection of articles to inspire and inform you about carbon emissions, sustainability, and green technology. Find practical advice and the latest insights to help you live a more eco-friendly lifestyle!</p>
+                <div class="artikel-headline">
+                    <h1>Jelajahi Artikel<div>Tentang <span class="green-text">Emisi Karbon</span></div></h1>
+                    <p>Yuk, jelajahi artikel-artikel kami yang penuh inspirasi dan informasi tentang emisi karbon, keberlanjutan, dan teknologi hijau. Temukan tips praktis dan wawasan terbaru untuk membantu kamu hidup lebih ramah lingkungan!</p>
                 </div>
-                <div class="header-img">
+                <div class="artikel-header-img">
                     <img src="../images/leaf-left.png" alt="Leaf Left">
                     <img src="../images/leaf-right.png" alt="Leaf Right">
                 </div>
@@ -22,6 +22,7 @@ const Artikel = {
         </div>      
         `;
   },
+  async afterRender(){}
 };
 
 export default Artikel;
