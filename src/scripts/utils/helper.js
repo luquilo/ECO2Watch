@@ -73,5 +73,5 @@ export const hitungTotalEmisi = ({
   const emisiKendaraan = totalEmisiKendaraan({ jumlahLiter });
   const emisiMakanan = totalEmisiMakananDanMinuman({ dagingJumlah, susuJumlah, sayuranJumlah });
 
-  totalEmisi = emisiLampu + emisiAC + emisiKulkas + emisiKendaraan + emisiMakanan;
+  totalEmisi = (emisiLampu + emisiAC + emisiKulkas + emisiKendaraan + emisiMakanan).toFixed(2);
 };

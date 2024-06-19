@@ -15,14 +15,35 @@ const Artikel = {
                 </div>
                 <hr class="green-line">
             </header>
-            <section class="about-us__profile">
-                <div class="profile-desc">
+
+                <div class="articles-container">
+                    <p>Loading articles...</p>
                 </div>
-            </section>
+
+
+
         </div>      
         `;
   },
-  async afterRender(){}
+  async afterRender() {
+    try {
+      const response = await fetch('https://ecowatch.up.railway.app/articles');
+      const articles = await response.json();
+      const articlesContainer = document.querySelector('.articles-container');
+      articlesContainer.innerHTML = articles.map((artikel) => `
+        <a href="${artikel.link}" target="_blank" class="article-item">      
+            <div>
+                <img src="${artikel.image}" alt="${artikel.title}">
+                <h2>${artikel.title}</h2>
+            </div>
+        </a>
+        `).join('');
+    } catch (error) {
+      console.error('Failed to fetch articles:', error);
+      const articlesContainer = document.querySelector('.articles-container');
+      articlesContainer.innerHTML = '<p>Failed to load articles. Please try again later.</p>';
+    }
+  },
 };
 
 export default Artikel;

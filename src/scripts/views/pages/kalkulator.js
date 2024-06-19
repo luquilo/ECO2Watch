@@ -10,8 +10,8 @@ const Kalkulator = {
         <div>
             <header class="calculator__header">
                 <div class="kalkulator-headline">
-                    <h1>Calculate <span class="green-text">Your Carbon</span></h1>
-                    <p>Explore our selection of articles to inspire and inform you about carbon emissions, sustainability, and green technology. Find practical advice and the latest insights to help you live a more eco-friendly lifestyle!</p>
+                    <h1>Hitung <span class="green-text">Jejak Karbonmu!</span></h1>
+                    <p>Gunakan kalkulator kami untuk mengetahui seberapa besar jejak karbonmu. Dapatkan tips praktis untuk mengurangi emisi dan mulailah menjalani gaya hidup yang lebih ramah lingkungan bersama ECO2Watch!</p>
                 </div>
                 <div class="kalkulator-header-img">
                     <img src="../images/leaf-left.png" alt="Leaf Left">

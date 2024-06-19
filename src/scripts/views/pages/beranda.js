@@ -8,7 +8,7 @@ const Beranda = {
                 <div class="hero-headline">
                     <h1>Dengan <div class="green-text">ECO2Watch</div>Kita Bersama <div>Selamatkan Dunia</div></h1>
                     <p>Hitung emisi karbonmu untuk bumi yang lebih sehat</p>
-                    <button>Hitung Karbon</button>
+                <a class="hero-headline-link" href="#/kalkulator">Hitung Karbon</a>
                 </div>
                 <div class="hero-img">
                     <img src="../images/hero.png" alt="">
@@ -24,7 +24,7 @@ const Beranda = {
             </div>
             <div class="home__article">
                 <div class="article-headline">
-                    <h1>Empowering Change, One Carbon Emission at a Time.</h1>
+                    <h1>Memberdayakan Perubahan, Mengurangi Emisi Karbon Satu Per Satu.</h1>
                 </div>
                 <div class="article-container">
                     
@@ -35,8 +35,8 @@ const Beranda = {
             </div>
             <div class="home__faq">
                 <div class="faq-about">
-                    <h1>Learn more<div class="green-text">About Us</div></h1>
-                    <p>At Carbon Emissions Calculator, we're dedicated to providing you with the tools and knowledge you need to measure and reduce your carbon footprint. Our mission is to empower individuals and organizations to make environmentally conscious decisions. With our user-friendly calculator, in-depth insights, and practical tips, you can take meaningful steps towards a greener planet.</p>
+                    <h1>Pelajari Lebih Lanjut<div class="green-text">Tentang ECO2Watch</div></h1>
+                    <p>ECO2Watch hadir sebagai solusi untuk memudahkan pengguna dalam menghitung dan mengurangi jejak karbon mereka. Dengan fokus pada kemudahan penggunaan dan sumber daya yang informatif, kami membantu individu dan organisasi untuk mengambil langkah-langkah menuju gaya hidup yang lebih berkelanjutan dan ramah lingkungan.</p>
                 </div>
                 <div class="faq-main">
                     <h1>Frequently<div class="green-text">Asked Questions</div></h1>
