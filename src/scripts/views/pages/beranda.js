@@ -38,9 +38,6 @@ const Beranda = {
                     <h1>Pelajari Lebih Lanjut<div class="green-text">Tentang ECO2Watch</div></h1>
                     <p>ECO2Watch hadir sebagai solusi untuk memudahkan pengguna dalam menghitung dan mengurangi jejak karbon mereka. Dengan fokus pada kemudahan penggunaan dan sumber daya yang informatif, kami membantu individu dan organisasi untuk mengambil langkah-langkah menuju gaya hidup yang lebih berkelanjutan dan ramah lingkungan.</p>
                 </div>
-                <div class="faq-main">
-                    <h1>Frequently<div class="green-text">Asked Questions</div></h1>
-                </div>
             </div>
         </div>
     `;
